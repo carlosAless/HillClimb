@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input, button{
+    font-size: 11pt;
+    height: 30px;
+}
+
+button{
+    background-color: #0DB2D4;
+    border-radius: 5px;
+}
+
+
+
+input[type="number"]{
+    font-weight: 900;
+    border-bottom: 2px solid #0C77C9;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #d0eeeb;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .content{
+    border: 1px solid black;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+main .quantItens,
+.inputweight,
+.contentChosen
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+.item{
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+}
+
+.itemChosen{
+    border-radius: 3px;
+    border-left: 3px solid cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+}
